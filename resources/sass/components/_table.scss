@@ -1,0 +1,23 @@
+.table{
+    &__header{
+        background-color: #5cabdb;
+        color: white;
+        &--left{
+            position: absolute;
+            display: inline;
+            text-align: right;
+            right: 0;
+            padding-right: 20px;
+        }
+        &-date{
+            display: inline;
+            padding-left: 30px;
+            &--first{
+                padding-left: 80px;
+            }
+        }
+        &-top{
+            padding-left: 50px;
+        }
+    }
+}

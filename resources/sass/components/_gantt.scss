@@ -1,0 +1,33 @@
+@import "../mixins/ganttMixins";
+
+// @include createGantt($width, $left, $color)
+
+.gantt{
+    &--text{
+        position: absolute;
+        font-size: 20px;
+        top: 0;
+        font-weight: 500;
+    }
+    &-peter{
+        @include createGantt(190px, 100px, blue);
+    }
+    &-steve{
+        @include createGantt(290px, 160px, green);
+    }
+    &-thor{
+        @include createGantt(220px, 160px, purple);
+    }
+    &-hank{
+        @include createGantt(320px, 210px, yellow);
+    }
+    &-banner{
+        @include createGantt(180px, 270px, green);
+    }
+    &-widow{
+        @include createGantt(160px, 420px, blue);
+    }
+    &-stark{
+        @include createGantt(385px, 300px, red);
+    }
+}

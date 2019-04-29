@@ -1,0 +1,51 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Font awesome
+@import "../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css";
+
+
+// Variables
+@import 'variables';
+
+//Helpers
+@import 'helpers';
+@import 'base';
+
+// router
+@import 'router';
+
+
+// components
+@import "buttons";
+@import "./components/gantt";
+@import "./components/navbar";
+@import "./components/sidebar";
+@import "./components/table";
+@import "./components/subHeader";
+
+//mixins
+@import "./mixins/ganttMixins";
+
+//views
+@import "./views/home";
+@import "./views/deliverables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.yes {
+    background-color: red;
+}
+
+//my soul
+.hello-darkness-my-old-friend{
+    background-color: black;
+    color: black;
+}

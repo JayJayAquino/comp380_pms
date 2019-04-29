@@ -1,0 +1,24 @@
+.sidebar{
+    position: relative;
+    background-color: #222222;
+    width: 200px;
+    height: 500px;
+    color:white;
+    &__home{
+        background-color: black;
+        position: relative;
+        padding-top: 15px;
+        text-align: center;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+    &__list{
+        list-style-type: none;
+        position: absolute;
+        &-item{
+            position: relative;
+            margin: 10px 0 10px 0;
+            cursor: pointer;
+        }
+    }
+}
