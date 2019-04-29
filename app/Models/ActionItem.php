@@ -1,10 +1,10 @@
 <?php
 
-namespace App;
+namespace App\Modles;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Issue extends Model
+class ActionItem extends Model
 {
     //
 }

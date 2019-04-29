@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Resource;
+use App\Models\Resource;
 use Illuminate\Http\Request;
 
 class ResourceController extends Controller
@@ -24,7 +24,7 @@ class ResourceController extends Controller
      */
     public function create()
     {
-        
+
     }
 
     /**
@@ -79,13 +79,13 @@ class ResourceController extends Controller
     {
         $resource = Resource::find($id);
         $resource->name = $request->name ? $request->name : $resource->name;
-        $resource->title = $request->title ? $request->title : $resource->title;  
-        $resource->list_of_skills = $request->list_of_skills ? $request->list_of_skills : $resource->list_of_skills; 
+        $resource->title = $request->title ? $request->title : $resource->title;
+        $resource->list_of_skills = $request->list_of_skills ? $request->list_of_skills : $resource->list_of_skills;
         $resource->availability_calendar = $request->availability_calendar ? $request->availability_calendar : $resource->availability_calendar;
         $resource->pay_rate = $request->pay_rate ? $request->pay_rate : $resource->pay_rate;
         $resource->save();
         return response('Resource Updated successfully', 200)
-        ->header('Content-Type', 'text/plain');   
+        ->header('Content-Type', 'text/plain');
     }
 
     /**

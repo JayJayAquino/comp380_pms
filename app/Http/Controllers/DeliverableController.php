@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Deliverable;
+use App\Models\Deliverable;
 use Illuminate\Http\Request;
 
 class DeliverableController extends Controller
@@ -76,11 +76,11 @@ class DeliverableController extends Controller
      */
     public function update($id ,Request $request)
     {
-    
+
     $deliverable = Deliverable::find($id);
     $deliverable->name = $request->name ? $request->name :  $deliverable->name;
     $deliverable->description = $request->description ? $request->description : $deliverable->description;
-    $deliverable->due_date = $request->due_date ? $request->due_date : $deliverable->due_date; 
+    $deliverable->due_date = $request->due_date ? $request->due_date : $deliverable->due_date;
     $deliverable->save();
     return response('Deliverable updated successfully', 200)
     ->header('Content-Type', 'text/plain');

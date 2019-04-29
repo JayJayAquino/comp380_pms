@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Task;
+use App\Models\Task;
 use Illuminate\Http\Request;
 
 class TaskController extends Controller
@@ -75,7 +75,7 @@ class TaskController extends Controller
      */
     public function update($id ,Request $request)
     {
-        $task = Task::find($id);  
+        $task = Task::find($id);
         $task->name = $request->name ? $request->name : $task->name;
         $task->description = $request->description ? $request->description : $task->description;
         $task->resource_assigned = $request->resource_assigned ? $request->resource_assigned :  $task->resource_assigned;
