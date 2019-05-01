@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  takeoff:
+    container_name: pms
+    build:
+      context: .
+      target: base
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www/html
+  db:
+    image: mysql:5.6.41
+    container_name: pms_db
+    restart: always
+    environment:
+      MYSQL_DATABASE: pms
+      MYSQL_USER: pms
+      MYSQL_PASSWORD: pms
+      MYSQL_ROOT_PASSWORD: pms
+    ports:
+      - 3306:3306
+    volumes:
+      - db_data:/var/lib/mysql/
+volumes:
+    db_data:
