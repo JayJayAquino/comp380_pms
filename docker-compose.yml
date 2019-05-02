@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  takeoff:
+  pms:
     container_name: pms
     build:
       context: .
