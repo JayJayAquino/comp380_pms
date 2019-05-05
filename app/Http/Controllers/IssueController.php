@@ -7,76 +7,33 @@ use Illuminate\Http\Request;
 
 class IssueController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        $issue = new Issue();
-        $issue->description = $request->description;
-        $issue->priority = $request->priority;
-        $issue->severity = $request->severity;
-        $issue->date_raised = $request->date_raised;
-        $issue->date_assigned = $request->date_assigned;
-        $issue->expected_completion_date = $request->expected_completion_date;
-        $issue->actual_completion_date = $request->actual_completion_date;
+        $issue = Issue::create([
+            'description' => $request->description,
+            'priority' => $request->priority,
+            'severity' => $request->severity,
+            'date_raised' => $request->date_raised,
+            'date_assigned' => $request->date_assigned,
+            'expected_completion_date' => $request->expected_completion_date,
+            'actual_completion_date' => $request->actual_completion_date,
+        ]);
         $issue->save();
-        return response('Issue Added successfully', 200)
-        ->header('Content-Type', 'text/plain');
+        return $issue;
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Issue  $issue
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Issue $issue)
+    public function read($id)
     {
-        //
+        $issue = Issue::where('id', $id)->first();
+        return $resource;
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Issue  $issue
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Issue $issue)
+    public function readAll()
     {
-        //
+        $allIssues = Issue::all();
+        return $allIssues;
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Issue  $issue
-     * @return \Illuminate\Http\Response
-     */
     public function update($id, Request $request)
     {
 
@@ -93,18 +50,9 @@ class IssueController extends Controller
         ->header('Content-Type', 'text/plain');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Issue  $issue
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Issue $issue)
+    public function delete($id)
     {
-        //
-    }
-    public function getAllIssues(Issue $issue) {
-        $allIssues = Issue::all();
-        return $allIssues;
+        $response = Issue::where('id',$id)->delete();
+        return $response;
     }
 }

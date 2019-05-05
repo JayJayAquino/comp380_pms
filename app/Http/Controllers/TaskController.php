@@ -7,72 +7,33 @@ use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return view('tasks.index');
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        $task = new Task();
-        $task->name = $request->name;
-        $task->description = $request->description;
-        $task->resource_assigned = $request->resource_assigned;
+        $task = Task::create([
+            'name' => $request->name,
+            'description' => $request->description,
+            'resource_assigned' => $request->resource_assigned,
+            'date_raised' => $request->date_raised,
+            'date_assigned' => $request->date_assigned,
+            'expected_completion_date' => $request->expected_completion_date,
+            'actual_completion_date' => $request->actual_completion_date,
+        ]);
         $task->save();
-        return response('Task Added successfully', 200)
-        ->header('Content-Type', 'text/plain');
+        return $task;
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
+    public function read($id)
     {
-        //
+        $task = Task::where('id', $id)->first();
+        return $resource;
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
+    public function readAll()
     {
-        //
+        $allTasks = Task::all();
+        return $allTasks;
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update($id ,Request $request)
     {
         $task = Task::find($id);
@@ -84,19 +45,9 @@ class TaskController extends Controller
         ->header('Content-Type', 'text/plain');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
+    public function delete($id)
     {
-        //
+        $response = Task::where('id',$id)->delete();
+        return $response;
     }
-    public function getAllTasks() {
-        $allTasks = Task::all();
-        return $allTasks;
-    }
-
 }
