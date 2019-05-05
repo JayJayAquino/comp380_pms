@@ -7,75 +7,31 @@ use Illuminate\Http\Request;
 
 class ResourceController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-
+        $deliverable = Deliverable::create([
+            'name' => $request->name,
+            'title' => $request->title,
+            'list_of_skills' => $request->list_of_skills,
+            'availability_calendar' => $request->availability_calendar,
+            'pay_rate' => $request->pay_rate,
+        ]);
+        $deliverable->save();
+        return $deliverable;
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function read($id)
     {
-        $resource = new Resource();
-        $resource->name = $request->name;
-        $resource->title = $request->title;
-        $resource->list_of_skills = $request->list_of_skills;
-        $resource->availability_calendar = $request->availability_calendar;
-        $resource->pay_rate = $request->pay_rate;
-        $resource->save();
-        return response('Resource Added successfully', 200)
-        ->header('Content-Type', 'text/plain');
+        $resource = Resource::where('id', $id)->first();
+        return $resource;
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Resource  $resource
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Resource $resource)
+    public function readAll()
     {
-        //
+        $allResources = Resource::all();
+        return $allResources;
     }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Resource  $resource
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Resource $resource)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Resource  $resource
-     * @return \Illuminate\Http\Response
-     */
-    public function update($id, Request $request)
+    public function update($id)
     {
         $resource = Resource::find($id);
         $resource->name = $request->name ? $request->name : $resource->name;
@@ -88,19 +44,9 @@ class ResourceController extends Controller
         ->header('Content-Type', 'text/plain');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Resource  $resource
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Resource $resource)
+    public function delete($id)
     {
-        //
+        $response = Resource::where('id',$id)->delete();
+        return $response;
     }
-    public function getAllResources() {
-        $allResources = Resource::all();
-        return $allResources;
-    }
-
 }
