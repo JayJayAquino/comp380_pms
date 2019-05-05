@@ -14,36 +14,49 @@ use Illuminate\Http\Request;
 */
 
 //deliverables
-Route::get('deliverables/hello', 'DeliverableController@testing');
-Route::get('deliverables/all', 'DeliverableController@getAllDeliverables');
-Route::post('createDeliverable', 'DeliverableController@store');
-Route::patch('updateDeliverable/{deliverableId}', 'DeliverableController@update');
+Route::prefix('deliverables')->group(function () {
+    Route::post('create', 'DeliverableController@create');
+    Route::get('read', 'DeliverableController@readAll');
+    Route::get('read/{id}', 'DeliverableController@read');
+    Route::patch('update/{id}', 'DeliverableController@update');
+    Route::delete('delete/{id}', 'DeliverableController@delete');
+});
+
 //resources
-Route::get('resources/all', 'ResourceController@getAllResources');
-Route::post('createResource', 'ResourceController@store');
-Route::patch('updateResource/{resourceId}', 'ResourceController@update');
+Route::prefix('resources')->group(function () {
+    Route::post('create', 'ResourceController@create');
+    Route::get('read/all', 'ResourceController@readAll');
+    Route::get('read/{id}', 'ResourceController@read');
+    Route::patch('update/{id}', 'ResourceController@update');
+    Route::delete('delete/{id}', 'ResourceController@delete');
+});
 
 //issues
-Route::get('issues/all', 'IssueController@getAllIssues');
-Route::post('createIssue', 'IssueController@store');
-Route::patch('updateIssue/{issueId}', 'IssueController@update');
-
-
+Route::prefix('issues')->group(function () {
+    Route::post('create', 'IssueController@create');
+    Route::get('read', 'IssueController@readAll');
+    Route::get('read/{id}', 'IssueController@read');
+    Route::patch('update/{id}', 'IssueController@update');
+    Route::delete('delete/{id}', 'IssueController@delete');
+});
 
 //action items
-Route::get('actionItems/all', 'ActionItemController@getAllActionItems');
-Route::post('createActionItem', 'ActionItemController@store');
-Route::patch('updateActionItem/{actionItemId}', 'ActionItemController@update');
-
+Route::prefix('actionitems')->group(function () {
+    Route::post('create', 'ActionItemController@create');
+    Route::get('read', 'ActionItemController@readAll');
+    Route::get('read/{id}', 'ActionItemController@read');
+    Route::patch('update/{id}', 'ActionItemController@update');
+    Route::delete('delete/{id}', 'ActionItemController@delete');
+});
 
 //tasks
-Route::get('tasks/all', 'TaskController@getAllTasks');
-Route::post('createTask', 'TaskController@store');
-Route::patch('updateTask/{taskId}', 'TaskController@update');
-
-
-
-
+Route::prefix('tasks')->group(function () {
+    Route::post('create', 'TaskController@create');
+    Route::get('read', 'TaskController@readAll');
+    Route::get('read/{id}', 'TaskController@read');
+    Route::patch('update/{id}', 'TaskController@update');
+    Route::delete('delete/{id}', 'TaskController@delete');
+});
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
