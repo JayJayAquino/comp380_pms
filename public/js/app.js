@@ -51133,10 +51133,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])])
+          _c("p", [_vm._v("Home | Gantt Chart")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -51220,6 +51220,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 54 */
@@ -51236,16 +51268,90 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
           _c("p", [_vm._v("Deliverables")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -51325,6 +51431,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 57 */
@@ -51341,16 +51479,90 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
           _c("p", [_vm._v("Action Items")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -51430,6 +51642,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 60 */
@@ -51446,16 +51690,88 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Changes")])]),
+        _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Changes")])
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -51535,6 +51851,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 63 */
@@ -51551,16 +51899,90 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
           _c("p", [_vm._v("Decisions")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -51640,6 +52062,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 66 */
@@ -51656,16 +52110,88 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Issues")])]),
+        _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Issues")])
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -51745,6 +52271,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 69 */
@@ -51761,16 +52319,90 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
           _c("p", [_vm._v("References")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -51850,6 +52482,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 72 */
@@ -51866,16 +52530,90 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
           _c("p", [_vm._v("Requirements")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -51955,6 +52693,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 75 */
@@ -51971,16 +52741,90 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
           _c("p", [_vm._v("Resources")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -52060,6 +52904,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 78 */
@@ -52076,16 +52952,88 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Risks")])]),
+        _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Risks")])
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -52165,6 +53113,38 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 81 */
@@ -52181,16 +53161,88 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "margin" }, [
+    return _c("div", { staticClass: "body-container" }, [
       _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Tasks")])]),
+        _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_c("strong", [_vm._v("Software Engineering Project")])]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Tasks")])
+          _c("table", [
+            _c("tr", [
+              _c("th", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Completion")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [
+                _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
+              ]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Deliverable")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "gantt-image" })
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Add")]
+          ),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger table-button",
+              attrs: { type: "button" }
+            },
+            [_vm._v("Delete")]
+          )
         ])
       ])
     ])
@@ -52461,32 +53513,27 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "row" }, [
-    _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "navbar" }, [
-        _c(
-          "div",
-          { staticClass: "navbar__left" },
-          [
-            _c("div", { staticClass: "fas fa-bars" }),
-            _vm._v(" "),
-            _c("h", { staticClass: "navbar_title" }, [_vm._v("PMS")])
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _vm._m(0)
-      ])
-    ])
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "navbar__right" }, [
-      _c("div", { staticClass: "navbar__left-img" })
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "navbar" }, [
+          _c("div", { staticClass: "navbar__left" }, [
+            _c("div", { staticClass: "fas fa-bars" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "navbar_title" }, [_vm._v("PMS")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "navbar__right" }, [
+            _c("div", { staticClass: "navbar__left-img" })
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -52594,8 +53641,6 @@ module.exports = Component.exports
 //
 //
 //
-//
-//
 
 /***/ }),
 /* 91 */
@@ -52607,6 +53652,8 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "col-md-2" }, [
     _c("div", { staticClass: "sidebar" }, [
+      _vm._m(0),
+      _vm._v(" "),
       _c(
         "ul",
         { staticClass: "sidebar__list" },
@@ -52741,7 +53788,16 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "sidebar__home" }, [
+      _c("li", { staticClass: "sidebar__list-item" }, [_vm._v("Project Name")])
+    ])
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {

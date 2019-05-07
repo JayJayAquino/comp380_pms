@@ -1,11 +1,9 @@
 <template>
 <div class="col-md-2">
     <div class="sidebar">
-        <!-- <div class="sidebar__home">
-            <router-link to="/">
-                <li class="sidebar__list-item">Home</li>
-            </router-link>
-        </div> -->
+        <div class="sidebar__home">
+            <li class="sidebar__list-item">Project Name</li>
+        </div>
         <ul class="sidebar__list">
             <router-link class="router-link" to="/">
                 <li class="sidebar__list-item">Home</li>

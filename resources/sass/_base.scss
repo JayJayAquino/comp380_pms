@@ -1,3 +1,22 @@
-.pageSize{
-    width: 800px;
+table {
+    font-family: arial, sans-serif;
+    color: $blue;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+
+th {
+    background-color: #d4d6d8;
+}
+
+.table-button{
+    float: right;
+    margin-top: 5px;
+    margin-left: 2px;
 }
