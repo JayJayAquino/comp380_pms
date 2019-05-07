@@ -1,22 +1,15 @@
 <template>
-    <div class="pageSize">
+<div class="margin">
+    <div class="row">
         <div class="col-md-12">
-            <sub-header></sub-header>
-            <!-- table -->
-            <div class="row">
-                <div class="col-md-12">
-                </div>
-            </div>
+            <p><strong>Software Engineering Project</strong></p>
+            <p>Risks</p>
+        </div>
+        <div class="col-md-12">
+            <div class="gantt-image"></div>
         </div>
     </div>
+</div>
 </template>
 
-<script>
-import subHeader from '../../../components/global/subHeader.vue';
-
-export default {
-    components: {
-        subHeader,
-    }
-}
-</script>
+<script></script>
