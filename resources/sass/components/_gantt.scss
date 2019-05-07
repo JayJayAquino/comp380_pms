@@ -31,3 +31,11 @@
         @include createGantt(385px, 300px, red);
     }
 }
+
+.gantt-image {
+    // background-image: url(/public/images/gantt.png);
+    background-color: #909090;
+    height: 500px;
+    width: 500px;
+    display: block;
+}
