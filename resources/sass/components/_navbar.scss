@@ -1,33 +1,21 @@
 .navbar{
-    height: 45px;
     width: 100%;
-    background-color: green;
-    color:white;
+    background-color: #2f557b;
+    color:#d4d6d8;
     &__left{
-        display: flex;
-        margin-left:5px;
         position: relative;
         &-img{
-            margin-right: 5px;
             height:25px;
             width:25px;
-            background-image: url(/project_management_system/public/images/john.jpg);
-            background-size: contain;
             border-radius:25px;
-            border: 1.5px white solid;
-        }
-        &-header{
-            margin-top: 4px;
+            border: 1.5px #d4d6d8 solid;
+            background-image: url(/public/images/README.png);
         }
     }
     &__right{
         text-align: right;
-        margin-top: 15px;
-        &-list{
-            list-style-type:none;
-        }
     }
-    &__center{
-        margin-top:5px;
+    &_title{
+        margin-left: 25px;
     }
 }
