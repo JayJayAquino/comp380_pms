@@ -6,8 +6,28 @@
   text-align: center;
 }
 
-.pageSize {
-  width: 800px;
+table {
+  font-family: arial, sans-serif;
+  color: #2f557b;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+th {
+  background-color: #d4d6d8;
+}
+
+.table-button {
+  float: right;
+  margin-top: 5px;
+  margin-left: 2px;
 }
 
 .router-link {
@@ -122,6 +142,7 @@
 
 .navbar_title {
   margin-left: 10px;
+  display: inline-block;
 }
 
 .sidebar {
@@ -129,16 +150,16 @@
   display: inline-block;
   background-color: #f5f5f5;
   width: 150px;
-  height: 700px;
+  height: 900px;
   color: #909090;
 }
 
 .sidebar__home {
   background-color: #f5f5f5;
+  color: #2f557b;
   position: relative;
-  padding-top: 20px;
   text-align: center;
-  cursor: pointer;
+  margin-left: 20px;
   list-style-type: none;
 }
 
@@ -194,7 +215,8 @@
   margin-bottom: 20px;
 }
 
-.margin {
+.body-container {
+  display: inline-block;
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;

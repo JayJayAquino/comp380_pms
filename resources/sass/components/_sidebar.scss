@@ -3,14 +3,14 @@
     display: inline-block;
     background-color:#f5f5f5;
     width: 150px;
-    height: 700px;
+    height: 900px;
     color:#909090;
     &__home{
         background-color: #f5f5f5;
+        color: $blue;
         position: relative;
-        padding-top: 20px;
         text-align: center;
-        cursor: pointer;
+        margin-left: 20px;
         list-style-type: none;
     }
     &__list{

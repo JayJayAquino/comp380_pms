@@ -4,7 +4,7 @@
         <div class="navbar">
             <div class="navbar__left">
                 <div class="fas fa-bars"></div>
-                <h class="navbar_title">PMS</h>
+                <div class="navbar_title">PMS</div>
             </div>
             <div class="navbar__right">
                 <div class="navbar__left-img"></div>
