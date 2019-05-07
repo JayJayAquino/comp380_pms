@@ -1,8 +1,17 @@
 <template>
-<div class="pageSize home">
-    <div class="col-md-12">
+<div class="margin">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Software Engineering Project</p>
+        </div>
+        <div class="col-md-12">
+            <div class="gantt-image"></div>
+        </div>
+    </div>
+    <!-- <div class="col-md-12">
+        class="pageSize home"
         <sub-header></sub-header>
-        <!-- table -->
+        <table>
         <div class="row">
             <div class="col-md-12">
                 <div class="home__buttons">
@@ -59,16 +68,16 @@
                 </tbody>
             </table>
         </div>
-    </div>
+    </div> -->
 </div>
 </template>
 
 <script>
-import subHeader from '../../../components/global/subHeader.vue';
+// import subHeader from '../../../components/global/subHeader.vue';
 
-export default {
-    components: {
-        subHeader,
-    }
-}
+// export default {
+//     components: {
+//         subHeader,
+//     }
+// }
 </script>

@@ -486,12 +486,11 @@ module.exports = {
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(52)
+var __vue_template__ = null
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -509,22 +508,6 @@ var Component = normalizeComponent(
   __vue_module_identifier__
 )
 Component.options.__file = "resources/js/components/global/subHeader.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-95252968", Component.options)
-  } else {
-    hotAPI.reload("data-v-95252968", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
 
 module.exports = Component.exports
 
@@ -51149,12 +51132,17 @@ module.exports = Component.exports
 
 /***/ }),
 /* 51 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_global_subHeader_vue__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_global_subHeader_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_global_subHeader_vue__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -51221,16 +51209,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
+// import subHeader from '../../../components/global/subHeader.vue';
 
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-    components: {
-        subHeader: __WEBPACK_IMPORTED_MODULE_0__components_global_subHeader_vue___default.a
-    }
-});
+// export default {
+//     components: {
+//         subHeader,
+//     }
+// }
 
 /***/ }),
-/* 52 */
+/* 52 */,
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51244,178 +51233,14 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "subHeader" }, [
-      _c("h3", [_vm._v("Project Management System")]),
-      _vm._v(" "),
-      _c("h6", [_vm._v("Fruit Snaccs Inc.")])
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-95252968", module.exports)
-  }
-}
-
-/***/ }),
-/* 53 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "pageSize home" }, [
-    _c(
-      "div",
-      { staticClass: "col-md-12" },
-      [_c("sub-header"), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1)],
-      1
-    )
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
-        _c("div", { staticClass: "home__buttons" }, [
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "button" } },
-            [_vm._v("16 Deliverables")]
-          ),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-success", attrs: { type: "button" } },
-            [_vm._v("124 Tasks")]
-          ),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-danger", attrs: { type: "button" } },
-            [_vm._v("26 Issues")]
-          ),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-warning", attrs: { type: "button" } },
-            [_vm._v("37 Actions Items")]
-          )
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "table-component" }, [
-      _c("table", { staticClass: "table" }, [
-        _c("thead", [
-          _c("tr", { staticClass: "table__header" }, [
-            _c("th", [
-              _vm._v("Gantt Chart "),
-              _c("p", { staticClass: "table__header--left" }, [
-                _vm._v("5 Resources")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("th"),
-            _vm._v(" "),
-            _c("th"),
-            _vm._v(" "),
-            _c("th")
-          ])
+    return _c("div", { staticClass: "margin" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("p", [_vm._v("Software Engineering Project")])
         ]),
         _vm._v(" "),
-        _c("tbody", [
-          _c("tr", [
-            _c("td", [
-              _c(
-                "p",
-                { staticClass: "table__header-date table__header-date--first" },
-                [_vm._v("Aug 1")]
-              ),
-              _c("p", { staticClass: "table__header-date" }, [_vm._v("Aug 8")]),
-              _c("p", { staticClass: "table__header-date" }, [
-                _vm._v("Aug 15")
-              ]),
-              _c("p", { staticClass: "table__header-date" }, [
-                _vm._v("Aug 22")
-              ]),
-              _c("p", { staticClass: "table__header-date" }, [
-                _vm._v("Aug 29")
-              ]),
-              _c("p", { staticClass: "table__header-date" }, [_vm._v("Sep 5")]),
-              _c("p", { staticClass: "table__header-date" }, [
-                _vm._v("Sep 12")
-              ]),
-              _c("p", { staticClass: "table__header-date" }, [_vm._v("Sep 19")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("td", [_vm._v("Task 1")]),
-            _vm._v(" "),
-            _c("td", { staticClass: "gantt-peter" }, [
-              _c("p", { staticClass: "gantt--text" }, [_vm._v("Peter Parker")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("td", [_vm._v("Task 2")]),
-            _vm._v(" "),
-            _c("td", { staticClass: "gantt-steve" }, [
-              _c("p", { staticClass: "gantt--text" }, [_vm._v("Steve Rodgers")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("td", [_vm._v("Task 3")]),
-            _vm._v(" "),
-            _c("td", { staticClass: " gantt-thor" }, [
-              _c("p", { staticClass: "gantt--text" }, [_vm._v("Thor Odinson")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("td", [_vm._v("Task 4")]),
-            _vm._v(" "),
-            _c("td", { staticClass: " gantt-hank" }, [
-              _c("p", { staticClass: "gantt--text" }, [_vm._v("Hank Pym")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("td", [_vm._v("Task 5")]),
-            _vm._v(" "),
-            _c("td", { staticClass: "gantt-banner" }, [
-              _c("p", { staticClass: "gantt--text" }, [_vm._v("Bruce Banner")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("td", [_vm._v("Task 6")]),
-            _vm._v(" "),
-            _c("td", { staticClass: "gantt-widow" }, [
-              _c("p", { staticClass: "gantt--text" }, [_vm._v("Black Widow")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("td", [_vm._v("Task 7")]),
-            _vm._v(" "),
-            _c("td", { staticClass: "gantt-stark" }, [
-              _c("p", { staticClass: "gantt--text" }, [_vm._v("Tony Stark")])
-            ])
-          ])
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("div", { staticClass: "gantt-image" })
         ])
       ])
     ])
@@ -52817,15 +52642,21 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row" }, [
-    _c("div", { staticClass: "navbar" }, [
-      _c(
-        "div",
-        { staticClass: "navbar__left" },
-        [_c("h", { staticClass: "navbar_title" }, [_vm._v("PMS")])],
-        1
-      ),
-      _vm._v(" "),
-      _vm._m(0)
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "navbar" }, [
+        _c(
+          "div",
+          { staticClass: "navbar__left" },
+          [
+            _c("div", { staticClass: "fas fa-bars" }),
+            _vm._v(" "),
+            _c("h", { staticClass: "navbar_title" }, [_vm._v("PMS")])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
     ])
   ])
 }
@@ -52954,7 +52785,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "col-md-3 lol " }, [
+  return _c("div", { staticClass: "col-md-2" }, [
     _c("div", { staticClass: "sidebar" }, [
       _c(
         "ul",

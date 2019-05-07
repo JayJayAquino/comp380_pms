@@ -9,13 +9,14 @@
             width:25px;
             border-radius:25px;
             border: 1.5px #d4d6d8 solid;
-            background-image: url(/public/images/README.png);
+            // background-image: url(/public/images/README.png);
+            background-color: white;
         }
     }
     &__right{
         text-align: right;
     }
     &_title{
-        margin-left: 25px;
+        margin-left: 10px;
     }
 }

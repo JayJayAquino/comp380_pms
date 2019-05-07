@@ -1,5 +1,5 @@
 <template>
-<div class="col-md-3 lol ">
+<div class="col-md-2">
     <div class="sidebar">
         <!-- <div class="sidebar__home">
             <router-link to="/">
