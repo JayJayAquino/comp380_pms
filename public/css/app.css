@@ -106,7 +106,7 @@
   width: 25px;
   border-radius: 25px;
   border: 1.5px #d4d6d8 solid;
-  background-image: url(/comp380_pms/public/images/README.png);
+  background-image: url(/public/images/README.png);
 }
 
 .navbar__right {

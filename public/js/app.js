@@ -52817,17 +52817,15 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row" }, [
-    _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "navbar" }, [
-        _c(
-          "div",
-          { staticClass: "navbar__left" },
-          [_c("h", { staticClass: "navbar_title" }, [_vm._v("PMS")])],
-          1
-        ),
-        _vm._v(" "),
-        _vm._m(0)
-      ])
+    _c("div", { staticClass: "navbar" }, [
+      _c(
+        "div",
+        { staticClass: "navbar__left" },
+        [_c("h", { staticClass: "navbar_title" }, [_vm._v("PMS")])],
+        1
+      ),
+      _vm._v(" "),
+      _vm._m(0)
     ])
   ])
 }
