@@ -9,30 +9,18 @@
                 <tr>
                     <th><input type="checkbox" id="myCheck"></th>
                     <th>Title</th>
-                    <th>Due Date</th>
-                    <th>Completion</th>
-                    <th>Description</th>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
-                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Requirement</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
-                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Requirement</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
-                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Requirement</td>
                 </tr>
             </table>
         </div>

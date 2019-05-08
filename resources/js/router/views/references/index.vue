@@ -9,29 +9,25 @@
                 <tr>
                     <th><input type="checkbox" id="myCheck"></th>
                     <th>Title</th>
-                    <th>Due Date</th>
-                    <th>Completion</th>
+                    <th>Requestor</th>
                     <th>Description</th>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
+                    <td>Reference</td>
+                    <td>Nyol N.</td>
                     <td>Lorem ipsum dolor sit.</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
+                    <td>Reference</td>
+                    <td>Harry H.</td>
                     <td>Lorem ipsum dolor sit.</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
+                    <td>Reference</td>
+                    <td>Fiona F.</td>
                     <td>Lorem ipsum dolor sit.</td>
                 </tr>
             </table>
