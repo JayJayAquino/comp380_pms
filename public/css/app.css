@@ -30,6 +30,19 @@ th {
   margin-left: 2px;
 }
 
+.modal-dec {
+  width: 100%;
+  color: white;
+  background-color: #2f557b;
+}
+
+.modal-foot-dec {
+  width: 100%;
+  background-color: #7bc043;
+  color: white;
+  text-align: center;
+}
+
 .router-link {
   color: #909090;
 }
@@ -41,7 +54,7 @@ th {
 
 .gantt--text {
   position: absolute;
-  font-size: 20px;
+  font-size: 15px;
   top: 0;
   font-weight: 500;
   color: black;

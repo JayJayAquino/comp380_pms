@@ -21,6 +21,16 @@ th {
     margin-left: 2px;
 }
 
-// .form-margin{
-//     margin-top: 15px;
-// }
+.modal{
+    &-dec{
+        width: 100%;
+        color: white;
+        background-color: $blue;
+    }
+    &-foot-dec {
+        width:100%;
+        background-color:#7bc043;
+        color:white;
+        text-align: center;
+    }
+}

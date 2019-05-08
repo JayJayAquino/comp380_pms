@@ -51265,23 +51265,124 @@ var staticRenderFns = [
             _c(
               "button",
               {
-                staticClass: "btn btn-danger table-button",
-                attrs: { type: "button" }
-              },
-              [_vm._v("Delete")]
-            ),
-            _vm._v(" "),
-            _c(
-              "button",
-              {
                 staticClass: "btn button-add table-button",
-                attrs: { type: "button" }
+                attrs: {
+                  type: "button",
+                  "data-toggle": "modal",
+                  "data-target": "#myModal"
+                }
               },
               [_vm._v("Add")]
             )
           ])
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "modal fade", attrs: { id: "myModal", role: "dialog" } },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "modal-header modal-dec" }, [
+                _c("h4", { staticClass: "modal-title" }, [
+                  _vm._v("Modal Header")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "close",
+                    staticStyle: { color: "white" },
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [_vm._v("×")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _c("form", [
+                  _c("div", { staticClass: "row" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "col-md-12",
+                        staticStyle: { "margin-bottom": "10px" }
+                      },
+                      [
+                        _c("select", { attrs: { name: "Categories" } }, [
+                          _c("option", { attrs: { value: "option1" } }, [
+                            _vm._v("Deliverable")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "option1" } }, [
+                            _vm._v("Task")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "option1" } }, [
+                            _vm._v("Issue")
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "option1" } }, [
+                            _vm._v("Action Item")
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Title:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Title" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Description:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Description" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Requirements:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Requirements" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Due Date:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Due Date" } })
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "modal-footer modal-foot-dec",
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [
+                    _c("div", { staticStyle: { "margin-right": "45%" } }, [
+                      _vm._v("Create")
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ]
+      )
     ])
   }
 ]
