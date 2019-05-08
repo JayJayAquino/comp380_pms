@@ -37,8 +37,8 @@
             </table>
         </div>
         <div class="col-md-12">
-            <button type="button" class="btn btn-success table-button">Add</button>
             <button type="button" class="btn btn-danger table-button">Delete</button>
+            <button type="button" class="btn button-add table-button">Add</button>
         </div>
     </div>
 </div>
