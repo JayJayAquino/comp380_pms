@@ -40,6 +40,18 @@
             <button type="button" class="btn btn-success table-button">Add</button>
             <button type="button" class="btn btn-danger table-button">Delete</button>
         </div>
+        <br>
+        <div class="col-md-12">
+            <table>
+                <tr>
+                    <th style="background-color:#2f557b; color:white;">Active ID: AB123</th>
+                </tr>
+                <tr>
+                    <br>
+                    <input type="text">
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
 </template>

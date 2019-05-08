@@ -51252,6 +51252,18 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 54 */
@@ -51352,6 +51364,28 @@ var staticRenderFns = [
             },
             [_vm._v("Delete")]
           )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("table", [
+            _c("tr", [
+              _c(
+                "th",
+                {
+                  staticStyle: { "background-color": "#2f557b", color: "white" }
+                },
+                [_vm._v("Active ID: AB123")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("br"),
+              _vm._v(" "),
+              _c("input", { attrs: { type: "text" } })
+            ])
+          ])
         ])
       ])
     ])
