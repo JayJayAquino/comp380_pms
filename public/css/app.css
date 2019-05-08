@@ -220,6 +220,10 @@ th {
   padding-left: 50px;
 }
 
+td {
+  font-size: 12px;
+}
+
 .subHeader {
   margin-top: 20px;
   margin-bottom: 35px;

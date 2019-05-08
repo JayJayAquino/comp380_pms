@@ -79,7 +79,7 @@
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header modal-dec">
-                <h4 class="modal-title">Modal Header</h4>
+                <h4 class="modal-title">Edit Sprint</h4>
                 <button type="button" class="close" data-dismiss="modal" style="color:white;">&times;</button>
             </div>
             <div class="modal-body">
