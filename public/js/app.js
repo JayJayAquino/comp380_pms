@@ -51933,9 +51933,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
+              _c("th", [_vm._v("Date Raised")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
+              _c("th", [_vm._v("Date Assigned")]),
               _vm._v(" "),
               _c("th", [_vm._v("Description")])
             ]),
@@ -51945,11 +51945,11 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Action Item")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -51959,11 +51959,11 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Action Item")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -51973,11 +51973,11 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Action Item")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])
@@ -52234,14 +52234,6 @@ module.exports = Component.exports
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 
 /***/ }),
 /* 59 */
@@ -52271,11 +52263,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Description")])
+              _c("th", [_vm._v("Requestor")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -52283,13 +52271,9 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Change")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Daniel D.")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -52297,13 +52281,9 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Change")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Lennie L.")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -52311,13 +52291,9 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Change")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Georgiana G.")])
             ])
           ])
         ]),
@@ -52527,6 +52503,14 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 62 */
@@ -52558,9 +52542,13 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
+              _c("th", [_vm._v("Date Raised")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
+              _c("th", [_vm._v("Date Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Severity")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Priority")]),
               _vm._v(" "),
               _c("th", [_vm._v("Description")])
             ]),
@@ -52570,11 +52558,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Decision")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -52584,11 +52576,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Decision")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -52598,11 +52594,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Decision")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])
@@ -52796,6 +52796,14 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 65 */
@@ -52825,9 +52833,13 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
+              _c("th", [_vm._v("Date Raised")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
+              _c("th", [_vm._v("Date Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Severity")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Priority")]),
               _vm._v(" "),
               _c("th", [_vm._v("Description")])
             ]),
@@ -52837,11 +52849,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Issue")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -52851,11 +52867,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Issue")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -52865,11 +52885,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Issue")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])
@@ -53166,10 +53190,6 @@ module.exports = Component.exports
 //
 //
 //
-//
-//
-//
-//
 
 /***/ }),
 /* 68 */
@@ -53201,9 +53221,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
+              _c("th", [_vm._v("Requestor")]),
               _vm._v(" "),
               _c("th", [_vm._v("Description")])
             ]),
@@ -53213,11 +53231,9 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Reference")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Nyol N.")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -53227,11 +53243,9 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Reference")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Harry H.")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -53241,11 +53255,9 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Reference")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Fiona F.")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])
@@ -53489,18 +53501,6 @@ module.exports = Component.exports
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /***/ }),
 /* 71 */
@@ -53530,13 +53530,7 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("th", [_vm._v("Title")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Description")])
+              _c("th", [_vm._v("Title")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -53544,13 +53538,7 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Requirement")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -53558,13 +53546,7 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Requirement")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -53572,13 +53554,7 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Requirement")])
             ])
           ])
         ]),
@@ -54160,6 +54136,14 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 77 */
@@ -54189,9 +54173,13 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
+              _c("th", [_vm._v("Date Raised")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
+              _c("th", [_vm._v("Date Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Severity")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Priority")]),
               _vm._v(" "),
               _c("th", [_vm._v("Description")])
             ]),
@@ -54201,11 +54189,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Risk")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -54215,11 +54207,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Risk")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -54229,11 +54225,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Risk")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])
@@ -54436,6 +54436,10 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
 
 /***/ }),
 /* 80 */
@@ -54469,6 +54473,8 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Completion")]),
               _vm._v(" "),
+              _c("th", [_vm._v("Assigned")]),
+              _vm._v(" "),
               _c("th", [_vm._v("Description")])
             ]),
             _vm._v(" "),
@@ -54477,11 +54483,13 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Task")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Barb B.")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -54491,11 +54499,13 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Task")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Joan J.")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
@@ -54505,11 +54515,13 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Task")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("56%")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Zylon Z.")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])

@@ -11,27 +11,31 @@
                     <th>Title</th>
                     <th>Due Date</th>
                     <th>Completion</th>
+                    <th>Assigned</th>
                     <th>Description</th>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
+                    <td>Task</td>
                     <td>02-18-2019</td>
                     <td>56%</td>
+                    <td>Barb B.</td>
                     <td>Lorem ipsum dolor sit.</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
+                    <td>Task</td>
                     <td>02-18-2019</td>
                     <td>56%</td>
+                    <td>Joan J.</td>
                     <td>Lorem ipsum dolor sit.</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
+                    <td>Task</td>
                     <td>02-18-2019</td>
                     <td>56%</td>
+                    <td>Zylon Z.</td>
                     <td>Lorem ipsum dolor sit.</td>
                 </tr>
             </table>
