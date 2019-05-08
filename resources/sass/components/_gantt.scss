@@ -8,27 +8,28 @@
         font-size: 20px;
         top: 0;
         font-weight: 500;
+        color: black;
     }
-    &-peter{
-        @include createGantt(190px, 100px, blue);
+    &-row1{
+        @include createGantt(190px, 100px, #f37736);
     }
-    &-steve{
-        @include createGantt(290px, 160px, green);
+    &-row2{
+        @include createGantt(290px, 160px, #f59892);
     }
-    &-thor{
-        @include createGantt(220px, 160px, purple);
+    &-row3{
+        @include createGantt(220px, 160px, #7bc043);
     }
-    &-hank{
-        @include createGantt(320px, 210px, yellow);
+    &-row4{
+        @include createGantt(320px, 210px, #0392cf);
     }
-    &-banner{
-        @include createGantt(180px, 270px, green);
+    &-row5{
+        @include createGantt(180px, 270px, #d3f5b8);
     }
-    &-widow{
-        @include createGantt(160px, 420px, blue);
+    &-row6{
+        @include createGantt(160px, 420px, #ee4035);
     }
-    &-stark{
-        @include createGantt(385px, 300px, red);
+    &-row7{
+        @include createGantt(385px, 300px, #fdf498);
     }
 }
 

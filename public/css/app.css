@@ -34,80 +34,86 @@ th {
   color: #909090;
 }
 
+.button-add {
+  background-color: #7bc043;
+  color: white;
+}
+
 .gantt--text {
   position: absolute;
   font-size: 20px;
   top: 0;
   font-weight: 500;
+  color: black;
 }
 
-.gantt-peter {
+.gantt-row1 {
   position: absolute;
   height: 25px;
   width: 190px;
   left: 100px;
-  background-color: blue;
-  border: 1px solid blue;
+  background-color: #f37736;
+  border: 1px solid #f37736;
   border-radius: 5px;
 }
 
-.gantt-steve {
+.gantt-row2 {
   position: absolute;
   height: 25px;
   width: 290px;
   left: 160px;
-  background-color: green;
-  border: 1px solid green;
+  background-color: #f59892;
+  border: 1px solid #f59892;
   border-radius: 5px;
 }
 
-.gantt-thor {
+.gantt-row3 {
   position: absolute;
   height: 25px;
   width: 220px;
   left: 160px;
-  background-color: purple;
-  border: 1px solid purple;
+  background-color: #7bc043;
+  border: 1px solid #7bc043;
   border-radius: 5px;
 }
 
-.gantt-hank {
+.gantt-row4 {
   position: absolute;
   height: 25px;
   width: 320px;
   left: 210px;
-  background-color: yellow;
-  border: 1px solid yellow;
+  background-color: #0392cf;
+  border: 1px solid #0392cf;
   border-radius: 5px;
 }
 
-.gantt-banner {
+.gantt-row5 {
   position: absolute;
   height: 25px;
   width: 180px;
   left: 270px;
-  background-color: green;
-  border: 1px solid green;
+  background-color: #d3f5b8;
+  border: 1px solid #d3f5b8;
   border-radius: 5px;
 }
 
-.gantt-widow {
+.gantt-row6 {
   position: absolute;
   height: 25px;
   width: 160px;
   left: 420px;
-  background-color: blue;
-  border: 1px solid blue;
+  background-color: #ee4035;
+  border: 1px solid #ee4035;
   border-radius: 5px;
 }
 
-.gantt-stark {
+.gantt-row7 {
   position: absolute;
   height: 25px;
   width: 385px;
   left: 300px;
-  background-color: red;
-  border: 1px solid red;
+  background-color: #fdf498;
+  border: 1px solid #fdf498;
   border-radius: 5px;
 }
 
@@ -177,8 +183,7 @@ th {
 }
 
 .table__header {
-  background-color: #5cabdb;
-  color: white;
+  color: #2f557b;
 }
 
 .table__header--left {
