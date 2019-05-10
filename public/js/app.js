@@ -52200,6 +52200,22 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 56 */
@@ -52219,7 +52235,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Action Items")])
+          _c("h4", [_vm._v("Action Items")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -52309,9 +52325,23 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
+              _c("h5", { staticClass: "modal-title" }, [
                 _vm._v("Active (ID: AB-227)")
-              ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pull-right" }, [_vm._v("CLOSED")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Date Created: 02/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Date Assigned: 08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Date Updated: 08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Estimated Date: 12/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Actual: 12/31/18")])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "modal-body" }, [
@@ -52325,12 +52355,10 @@ var staticRenderFns = [
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Expected End Date:"),
+                    _vm._v("\n                            Resource:"),
                     _c("br"),
                     _vm._v(" "),
-                    _c("input", {
-                      attrs: { type: "text", name: "Expected End Date" }
-                    })
+                    _c("input", { attrs: { type: "text", name: "Resource" } })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
@@ -52339,6 +52367,24 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("input", {
                       attrs: { type: "text", name: "Description" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Status", value: "closed" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Status Description" }
                     })
                   ])
                 ])

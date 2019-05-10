@@ -2,7 +2,7 @@
 <div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
-            <p>Action Items</p>
+            <h4>Action Items</h4>
         </div>
         <div class="col-md-12">
             <table>
@@ -44,7 +44,15 @@
             <div class="col-md-12 active-margin">
                 <div class="modal-content">
                     <div class="modal-header modal-dec">
-                        <h4 class="modal-title">Active (ID: AB-227)</h4>
+                        <h5 class="modal-title">Active (ID: AB-227)</h5>
+                        <div class="pull-right">CLOSED</div>
+                    </div>
+                    <div class="modal-header modal-sub-dec">
+                            <div>Date Created: 02/28/18</div>
+                            <div>Date Assigned: 08/28/18</div>
+                            <div>Date Updated: 08/28/18</div>
+                            <div>Estimated Date: 12/28/18</div>
+                            <div>Actual: 12/31/18</div>
                     </div>
             <div class="modal-body">
                 <form>
@@ -54,12 +62,20 @@
                             <input type="text" name="Title">
                         </div>
                         <div class="col-md-6">
-                            Expected End Date:<br>
-                            <input type="text" name="Expected End Date">
+                            Resource:<br>
+                            <input type="text" name="Resource">
                         </div>
                         <div class="col-md-6">
                             Description:<br>
                             <input type="text" name="Description">
+                        </div>
+                        <div class="col-md-6">
+                            Status:<br>
+                            <input type="text" name="Status" value="closed">
+                        </div>
+                        <div class="col-md-6">
+                            Status Description:<br>
+                            <input type="text" name="Status Description">
                         </div>
                     </div>
                 </form> 
