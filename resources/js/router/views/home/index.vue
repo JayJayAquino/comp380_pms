@@ -1,5 +1,5 @@
 <template>
-<div class="body-container">
+<div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
             <p>Home | Sprint Week 7</p>
