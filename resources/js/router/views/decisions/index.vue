@@ -185,8 +185,24 @@
                             <input type="text" name="Title">
                         </div>
                         <div class="col-md-6">
-                            Resource:<br>
-                            <input type="text" name="Resources">
+                            Decision Maker:<br>
+                            <input type="text" name="Decision Maker">
+                        </div>
+                        <div class="col-md-6">
+                            Date Needed:<br>
+                            <input type="text" name="Date Needed">
+                        </div>
+                        <div class="col-md-6">
+                            Estimated Completion:<br>
+                            <input type="text" name="Estimated Completion">
+                        </div>
+                        <div class="col-md-6">
+                            Priority:<br>
+                            <input type="text" name="Priority">
+                        </div>
+                        <div class="col-md-6">
+                            Severity:<br>
+                            <input type="text" name="Severity">
                         </div>
                         <div class="col-md-6">
                             Description:<br>
