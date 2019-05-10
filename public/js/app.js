@@ -52337,9 +52337,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", [_vm._v("Date Assigned: 08/28/18")]),
               _vm._v(" "),
-              _c("div", [_vm._v("Date Updated: 08/28/18")]),
+              _c("div", [_vm._v("Last Updated: 08/28/18")]),
               _vm._v(" "),
-              _c("div", [_vm._v("Estimated Date: 12/28/18")]),
+              _c("div", [_vm._v("Estimated End Date: 12/28/18")]),
               _vm._v(" "),
               _c("div", [_vm._v("Actual: 12/31/18")])
             ]),
@@ -53096,6 +53096,76 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 62 */
@@ -53115,7 +53185,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Decisions")])
+          _c("h4", [_vm._v("Decisions")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -53217,9 +53287,25 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
+              _c("h5", { staticClass: "modal-title" }, [
                 _vm._v("Active (ID: AB-227)")
-              ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pull-right" }, [_vm._v("CLOSED")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Date Raised: 02/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Date Assigned: 08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Last Updated: 08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Estimated End Date: 12/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Actual: 12/31/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Date Needed: 01/01/19")])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "modal-body" }, [
@@ -53233,12 +53319,46 @@ var staticRenderFns = [
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Expected End Date:"),
+                    _vm._v("\n                            Decision Maker:"),
                     _c("br"),
                     _vm._v(" "),
                     _c("input", {
-                      attrs: { type: "text", name: "Expected End Date" }
+                      attrs: { type: "text", name: "Decision Maker" }
                     })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Date Needed:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Date Needed" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v(
+                      "\n                            Estimated Completion:"
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Estimated Completion" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Priority:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Priority" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Severity:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Severity" } })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
@@ -53247,6 +53367,24 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("input", {
                       attrs: { type: "text", name: "Description" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Status", value: "closed" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Status Description" }
                     })
                   ])
                 ])
@@ -53267,7 +53405,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12 active-margin" }, [
-          _c("p", [_vm._v("Related Requirements")])
+          _c("p", [_vm._v("Related Reference Documents")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -53275,49 +53413,25 @@ var staticRenderFns = [
             _c("tr", [
               _c("th", [_vm._v("ID")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Title")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Assigned")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Description")])
+              _c("th", [_vm._v("Title")])
             ]),
             _vm._v(" "),
             _c("tr", [
               _c("td", [_vm._v("3612")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Barb B.")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Reference Documents")])
             ]),
             _vm._v(" "),
             _c("tr", [
               _c("td", [_vm._v("3612")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Joan J.")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Reference Documents")])
             ]),
             _vm._v(" "),
             _c("tr", [
               _c("td", [_vm._v("3612")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Zylon Z.")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Reference Documents")])
             ])
           ])
         ]),
@@ -53338,7 +53452,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12 active-margin" }, [
-          _c("p", [_vm._v("Related Tasks")])
+          _c("p", [_vm._v("Meeting Notes")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -53346,49 +53460,25 @@ var staticRenderFns = [
             _c("tr", [
               _c("th", [_vm._v("ID")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Title")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Assigned")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Description")])
+              _c("th", [_vm._v("Title")])
             ]),
             _vm._v(" "),
             _c("tr", [
               _c("td", [_vm._v("3612")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Task")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Barb B.")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Meeting Notes")])
             ]),
             _vm._v(" "),
             _c("tr", [
               _c("td", [_vm._v("3612")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Task")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Joan J.")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Meeting Notes")])
             ]),
             _vm._v(" "),
             _c("tr", [
               _c("td", [_vm._v("3612")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Task")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Zylon Z.")]),
-              _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Meeting Notes")])
             ])
           ])
         ]),
@@ -53407,7 +53497,131 @@ var staticRenderFns = [
             [_vm._v("Add")]
           )
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "modal fade", attrs: { id: "myModal", role: "dialog" } },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "modal-header modal-dec" }, [
+                _c("h4", { staticClass: "modal-title" }, [
+                  _vm._v("Decision Creation")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "close",
+                    staticStyle: { color: "white" },
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [_vm._v("×")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _c("form", [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Title:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Title" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Decision Maker:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Decision Maker" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Date Needed:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Date Needed" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v(
+                        "\n                            Estimated Completion:"
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Estimated Completion" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Priority:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Priority" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Severity:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Severity" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Description:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Description" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Status:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Status" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v(
+                        "\n                            Status Description:"
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Status Description" }
+                      })
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "modal-footer modal-foot-dec",
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [
+                    _c("div", { staticStyle: { "margin-right": "45%" } }, [
+                      _vm._v("Create")
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ]
+      )
     ])
   }
 ]

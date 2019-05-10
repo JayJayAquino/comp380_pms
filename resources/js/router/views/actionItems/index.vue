@@ -50,8 +50,8 @@
                     <div class="modal-header modal-sub-dec">
                             <div>Date Created: 02/28/18</div>
                             <div>Date Assigned: 08/28/18</div>
-                            <div>Date Updated: 08/28/18</div>
-                            <div>Estimated Date: 12/28/18</div>
+                            <div>Last Updated: 08/28/18</div>
+                            <div>Estimated End Date: 12/28/18</div>
                             <div>Actual: 12/31/18</div>
                     </div>
             <div class="modal-body">
