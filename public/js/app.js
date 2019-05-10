@@ -52660,6 +52660,10 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
 
 /***/ }),
 /* 59 */
@@ -52678,7 +52682,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Changes")])]),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("h4", [_vm._v("Changes")])
+        ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
@@ -52751,9 +52757,15 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
+              _c("h5", { staticClass: "modal-title" }, [
                 _vm._v("Active (ID: AB-227)")
-              ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pull-right" }, [_vm._v("CLOSED")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Last Updated: 08/28/19")])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "modal-body" }, [
@@ -52767,16 +52779,14 @@ var staticRenderFns = [
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Expected End Date:"),
+                    _vm._v("\n                            Requestor:"),
                     _c("br"),
                     _vm._v(" "),
-                    _c("input", {
-                      attrs: { type: "text", name: "Expected End Date" }
-                    })
+                    _c("input", { attrs: { type: "text", name: "Requestor" } })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Description:"),
+                    _vm._v("\n                            Status:"),
                     _c("br"),
                     _vm._v(" "),
                     _c("input", {
