@@ -51118,7 +51118,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Home | Sprint Week 7")])
+          _c("h4", [_vm._v("Home | Sprint 7")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -51658,7 +51658,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Deliverables")])
+          _c("h4", [_vm._v("Deliverables")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -51748,7 +51748,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
+              _c("h5", { staticClass: "modal-title" }, [
                 _vm._v("Active (ID: AB-227)")
               ])
             ]),
@@ -55875,6 +55875,33 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 80 */
@@ -55893,7 +55920,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Tasks")])]),
+        _c("div", { staticClass: "col-md-12" }, [_c("h4", [_vm._v("Tasks")])]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
@@ -55990,9 +56017,19 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
+              _c("h5", { staticClass: "modal-title" }, [
                 _vm._v("Active (ID: AB-227)")
               ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Estimated Duration: 02/28/18-08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Effort Estimate: 6 months")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Previous Task: AB-226")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Next Task: AB-228")])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "modal-body" }, [
@@ -56021,6 +56058,31 @@ var staticRenderFns = [
                     _c("input", {
                       attrs: { type: "text", name: "Description" }
                     })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Resource:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Resource" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Start Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Start Date" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            End Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "End Date" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 active-margin" }, [
+                    _vm._v("Actual Duration: TBD")
                   ])
                 ])
               ])
@@ -56040,7 +56102,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12 active-margin" }, [
-          _c("p", [_vm._v("Related Requirements")])
+          _c("p", [_vm._v("Related Issues")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -56050,45 +56112,61 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
+              _c("th", [_vm._v("Date Raised")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Assigned")]),
+              _c("th", [_vm._v("Date Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Severity")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Priority")]),
               _vm._v(" "),
               _c("th", [_vm._v("Description")])
             ]),
             _vm._v(" "),
             _c("tr", [
-              _c("td", [_vm._v("3612")]),
+              _c("td", [_vm._v("626")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
+              _c("td", [_vm._v("Issue")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Barb B.")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
             _vm._v(" "),
             _c("tr", [
-              _c("td", [_vm._v("3612")]),
+              _c("td", [_vm._v("626")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
+              _c("td", [_vm._v("Issue")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Joan J.")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
             _vm._v(" "),
             _c("tr", [
-              _c("td", [_vm._v("3612")]),
+              _c("td", [_vm._v("626")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
+              _c("td", [_vm._v("Issue")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Zylon Z.")]),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])
@@ -56655,9 +56733,6 @@ module.exports = Component.exports
 //
 //
 //
-//
-//
-//
 
 /***/ }),
 /* 90 */
@@ -56669,8 +56744,6 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "col-md-2" }, [
     _c("div", { staticClass: "sidebar" }, [
-      _vm._m(0),
-      _vm._v(" "),
       _c(
         "ul",
         { staticClass: "sidebar__list" },
@@ -56805,16 +56878,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "sidebar__home" }, [
-      _c("li", { staticClass: "sidebar__list-item" }, [_vm._v("Project Name")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
