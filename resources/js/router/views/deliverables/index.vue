@@ -2,7 +2,7 @@
 <div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
-            <p>Deliverables</p>
+            <h4>Deliverables</h4>
         </div>
         <div class="col-md-12">
             <table>
@@ -44,7 +44,7 @@
         <div class="col-md-12 active-margin">
                 <div class="modal-content">
                     <div class="modal-header modal-dec">
-                        <h4 class="modal-title">Active (ID: AB-227)</h4>
+                        <h5 class="modal-title">Active (ID: AB-227)</h5>
                     </div>
             <div class="modal-body">
                 <form>
