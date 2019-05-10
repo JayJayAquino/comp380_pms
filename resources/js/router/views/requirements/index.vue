@@ -2,7 +2,7 @@
 <div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
-            <p>Requirements</p>
+            <h4>Requirements</h4>
         </div>
         <div class="col-md-12">
             <table>
@@ -32,7 +32,7 @@
         <div class="col-md-12 active-margin">
                 <div class="modal-content">
                     <div class="modal-header modal-dec">
-                        <h4 class="modal-title">Active (ID: AB-227)</h4>
+                        <h5 class="modal-title">ID: AB-227</h5>
                     </div>
             <div class="modal-body">
                 <form>
@@ -42,12 +42,28 @@
                             <input type="text" name="Title">
                         </div>
                         <div class="col-md-6">
-                            Expected End Date:<br>
-                            <input type="text" name="Expected End Date">
+                            Title:<br>
+                            <input type="text" name="Titles">
                         </div>
                         <div class="col-md-6">
-                            Description:<br>
-                            <input type="text" name="Description">
+                            Requirement:<br>
+                            <input type="text" name="Requirement">
+                        </div>
+                        <div class="col-md-6">
+                            Source Document:<br>
+                            <input type="text" name="Source Document">
+                        </div>
+                        <div class="col-md-6">
+                            Client Reference:<br>
+                            <input type="text" name="Client Reference">
+                        </div>
+                        <div class="col-md-6">
+                            Location in Souce Document:<br>
+                            <input type="text" name="Location in Souce Document">
+                        </div>
+                        <div class="col-md-6">
+                            Related Deliverable:<br>
+                            <input type="text" name="Related Deliverable">
                         </div>
                     </div>
                 </form> 
