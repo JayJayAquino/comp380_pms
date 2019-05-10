@@ -55728,6 +55728,76 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 77 */
@@ -55746,7 +55816,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Risks")])]),
+        _c("div", { staticClass: "col-md-12" }, [_c("h4", [_vm._v("Risks")])]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
@@ -55838,7 +55908,11 @@ var staticRenderFns = [
             "button",
             {
               staticClass: "btn button-add table-button",
-              attrs: { type: "button" }
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
             },
             [_vm._v("Add")]
           )
@@ -55847,9 +55921,13 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
+              _c("h5", { staticClass: "modal-title" }, [
                 _vm._v("Active (ID: AB-227)")
               ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Risk Score: 75")])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "modal-body" }, [
@@ -55863,20 +55941,49 @@ var staticRenderFns = [
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Expected End Date:"),
+                    _c("select", { attrs: { name: "Category" } }, [
+                      _c("option", { attrs: { value: "option1" } }, [
+                        _vm._v("Category")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Action By:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Action By" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Impact:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Impact" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Probability:"),
                     _c("br"),
                     _vm._v(" "),
                     _c("input", {
-                      attrs: { type: "text", name: "Expected End Date" }
+                      attrs: { type: "text", name: "Probability" }
                     })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Description:"),
+                    _vm._v("\n                            Mitigation:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Mitigation" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Contingency:"),
                     _c("br"),
                     _vm._v(" "),
                     _c("input", {
-                      attrs: { type: "text", name: "Description" }
+                      attrs: { type: "text", name: "Contingency" }
                     })
                   ])
                 ])
@@ -55897,7 +56004,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12 active-margin" }, [
-          _c("p", [_vm._v("Related Requirements")])
+          _c("p", [_vm._v("Related Action Items")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -55907,45 +56014,45 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
+              _c("th", [_vm._v("Date Raised")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Assigned")]),
+              _c("th", [_vm._v("Date Assigned")]),
               _vm._v(" "),
               _c("th", [_vm._v("Description")])
             ]),
             _vm._v(" "),
             _c("tr", [
-              _c("td", [_vm._v("3612")]),
+              _c("td", [_vm._v("394")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
+              _c("td", [_vm._v("Action Item")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Barb B.")]),
+              _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
             _vm._v(" "),
             _c("tr", [
-              _c("td", [_vm._v("3612")]),
+              _c("td", [_vm._v("394")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
+              _c("td", [_vm._v("Action Item")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Joan J.")]),
+              _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ]),
             _vm._v(" "),
             _c("tr", [
-              _c("td", [_vm._v("3612")]),
+              _c("td", [_vm._v("394")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Requirement")]),
+              _c("td", [_vm._v("Action Item")]),
               _vm._v(" "),
               _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Zylon Z.")]),
+              _c("td", [_vm._v("02-18-2019")]),
               _vm._v(" "),
               _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])
@@ -55966,7 +56073,112 @@ var staticRenderFns = [
             [_vm._v("Add")]
           )
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "modal fade", attrs: { id: "myModal", role: "dialog" } },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "modal-header modal-dec" }, [
+                _c("h4", { staticClass: "modal-title" }, [
+                  _vm._v("Risk Creation")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "close",
+                    staticStyle: { color: "white" },
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [_vm._v("×")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _c("form", [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Title:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Title" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _c("select", { attrs: { name: "Category" } }, [
+                        _c("option", { attrs: { value: "option1" } }, [
+                          _vm._v("Category")
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Action By:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Action By" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Impact:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Impact" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Probability:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Probability" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Mitigation:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Mitigation" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Contingency:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Contingency" }
+                      })
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "modal-footer modal-foot-dec",
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [
+                    _c("div", { staticStyle: { "margin-right": "45%" } }, [
+                      _vm._v("Create")
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ]
+      )
     ])
   }
 ]
