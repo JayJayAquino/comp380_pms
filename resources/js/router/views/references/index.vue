@@ -1,8 +1,8 @@
 <template>
-<div class="body-container">
+<div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
-            <p>References</p>
+            <h4>References</h4>
         </div>
         <div class="col-md-12">
             <table>
@@ -36,6 +36,32 @@
             <button type="button" class="btn btn-danger table-button">Delete</button>
             <button type="button" class="btn button-add table-button" data-toggle="modal" data-target="#myModal">Upload</button>
         </div>
+
+        <div class="col-md-12 active-margin">
+                <div class="modal-content">
+                    <div class="modal-header modal-dec">
+                        <h5 class="modal-title">ID: AB-227</h5>
+                    </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            Title:<br>
+                            <input type="text" name="Title">
+                        </div>
+                        <div class="col-md-6">
+                            Description:<br>
+                            <input type="text" name="Description">
+                        </div>
+                    </div>
+                </form> 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn button-add table-button">Confirm</button>
+            </div>
+        </div>
+        </div>
+
     </div>
 
     <!-- Modal -->

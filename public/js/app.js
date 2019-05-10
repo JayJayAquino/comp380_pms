@@ -51115,10 +51115,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Home | Sprint Week 7")])
+          _c("h4", [_vm._v("Home | Sprint 7")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -51543,6 +51543,102 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 53 */
@@ -51559,10 +51655,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Deliverables")])
+          _c("h4", [_vm._v("Deliverables")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -51649,26 +51745,198 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("br"),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [
+                _vm._v("Active (ID: AB-227)")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Expected End Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Expected End Date" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Description" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("p", [_vm._v("Related Requirements")])
+        ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
             _c("tr", [
-              _c(
-                "th",
-                {
-                  staticStyle: { "background-color": "#2f557b", color: "white" }
-                },
-                [_vm._v("Active ID: AB123")]
-              )
+              _c("th", [_vm._v("ID")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
             ]),
             _vm._v(" "),
             _c("tr", [
-              _c("br"),
+              _c("td", [_vm._v("3612")]),
               _vm._v(" "),
-              _c("input", { attrs: { type: "text" } })
+              _c("td", [_vm._v("Requirement")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Barb B.")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Requirement")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Joan J.")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Requirement")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Zylon Z.")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
             ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn button-add table-button",
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
+            },
+            [_vm._v("Add")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("p", [_vm._v("Related Tasks")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("table", [
+            _c("tr", [
+              _c("th", [_vm._v("ID")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Due Date")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Task")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Barb B.")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Task")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Joan J.")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Task")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Zylon Z.")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn button-add table-button",
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
+            },
+            [_vm._v("Add")]
+          )
         ])
       ]),
       _vm._v(" "),
@@ -51902,6 +52170,52 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 56 */
@@ -51918,10 +52232,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Action Items")])
+          _c("h4", [_vm._v("Action Items")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -52006,6 +52320,88 @@ var staticRenderFns = [
             },
             [_vm._v("Add")]
           )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [
+                _vm._v("Active (ID: AB-227)")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pull-right" }, [_vm._v("CLOSED")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Date Created: 02/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Date Assigned: 08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Last Updated: 08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Estimated End Date: 12/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Actual: 12/31/18")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Resource:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Resource" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Description" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Status", value: "closed" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Status Description" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -52234,6 +52630,40 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 59 */
@@ -52250,9 +52680,11 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Changes")])]),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("h4", [_vm._v("Changes")])
+        ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
@@ -52320,6 +52752,62 @@ var staticRenderFns = [
             },
             [_vm._v("Add")]
           )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [
+                _vm._v("Active (ID: AB-227)")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pull-right" }, [_vm._v("CLOSED")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Last Updated: 08/28/19")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Requestor:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Requestor" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Description" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -52511,6 +52999,183 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 62 */
@@ -52527,10 +53192,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Decisions")])
+          _c("h4", [_vm._v("Decisions")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -52627,8 +53292,346 @@ var staticRenderFns = [
             },
             [_vm._v("Add")]
           )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [
+                _vm._v("Active (ID: AB-227)")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pull-right" }, [_vm._v("CLOSED")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Date Raised: 02/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Date Assigned: 08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Last Updated: 08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Estimated End Date: 12/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Actual: 12/31/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Date Needed: 01/01/19")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Decision Maker:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Decision Maker" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Date Needed:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Date Needed" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v(
+                      "\n                            Estimated Completion:"
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Estimated Completion" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Priority:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Priority" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Severity:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Severity" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Description" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Status", value: "closed" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Status Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Status Description" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("p", [_vm._v("Related Reference Documents")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("table", [
+            _c("tr", [
+              _c("th", [_vm._v("ID")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Reference Documents")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Reference Documents")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Reference Documents")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn button-add table-button",
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
+            },
+            [_vm._v("Add")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("p", [_vm._v("Meeting Notes")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("table", [
+            _c("tr", [
+              _c("th", [_vm._v("ID")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Meeting Notes")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Meeting Notes")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("3612")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Meeting Notes")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn button-add table-button",
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
+            },
+            [_vm._v("Add")]
+          )
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "modal fade", attrs: { id: "myModal", role: "dialog" } },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "modal-header modal-dec" }, [
+                _c("h4", { staticClass: "modal-title" }, [
+                  _vm._v("Decision Creation")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "close",
+                    staticStyle: { color: "white" },
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [_vm._v("×")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _c("form", [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Title:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Title" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Decision Maker:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Decision Maker" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Date Needed:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Date Needed" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v(
+                        "\n                            Estimated Completion:"
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Estimated Completion" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Priority:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Priority" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Severity:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Severity" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Description:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Description" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Status:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Status" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v(
+                        "\n                            Status Description:"
+                      ),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Status Description" }
+                      })
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "modal-footer modal-foot-dec",
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [
+                    _c("div", { staticStyle: { "margin-right": "45%" } }, [
+                      _vm._v("Create")
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ]
+      )
     ])
   }
 ]
@@ -52804,6 +53807,94 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 65 */
@@ -52820,9 +53911,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Issues")])]),
+        _c("div", { staticClass: "col-md-12" }, [_c("h4", [_vm._v("Issues")])]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
@@ -52910,6 +54001,164 @@ var staticRenderFns = [
             [_vm._v("Delete")]
           ),
           _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn button-add table-button",
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
+            },
+            [_vm._v("Add")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [
+                _vm._v("Active (ID: AB-227)")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Estimated Duration: 02/28/18-08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Effort Estimate: 6 months")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Previous Task: AB-226")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Next Task: AB-228")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Expected End Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Expected End Date" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Description" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Resource:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Resource" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Start Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Start Date" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            End Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "End Date" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 active-margin" }, [
+                    _vm._v("Actual Duration: TBD")
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("p", [_vm._v("Related Action Items")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("table", [
+            _c("tr", [
+              _c("th", [_vm._v("ID")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Date Raised")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Date Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("394")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Action Item")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("394")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Action Item")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("394")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Action Item")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
           _c(
             "button",
             {
@@ -53190,6 +54439,32 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 68 */
@@ -53206,10 +54481,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("References")])
+          _c("h4", [_vm._v("References")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -53286,6 +54561,47 @@ var staticRenderFns = [
             },
             [_vm._v("Upload")]
           )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [_vm._v("ID: AB-227")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Description" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -53501,6 +54817,52 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 71 */
@@ -53517,10 +54879,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Requirements")])
+          _c("h4", [_vm._v("Requirements")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -53581,6 +54943,97 @@ var staticRenderFns = [
             },
             [_vm._v("Add")]
           )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [_vm._v("ID: AB-227")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Titles" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Requirement:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Requirement" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Source Document:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Source Document" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Client Reference:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Client Reference" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v(
+                      "\n                            Location in Souce Document:"
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: {
+                        type: "text",
+                        name: "Location in Souce Document"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v(
+                      "\n                            Related Deliverable:"
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Related Deliverable" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -53844,6 +55297,47 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 74 */
@@ -53860,10 +55354,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Resources")])
+          _c("h4", [_vm._v("Resources")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -53875,11 +55369,13 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
+              _c("th", [_vm._v("Name")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
+              _c("th", [_vm._v("Pay Rate")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Description")])
+              _c("th", [_vm._v("Skills")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Availability")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -53887,13 +55383,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Resource")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
+              _c("td", [_vm._v("Rodger Rabbit")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Pay Rate")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Skills")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Availability")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -53901,13 +55399,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Resource")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
+              _c("td", [_vm._v("Bugs Bunny")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Pay Rate")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Skills")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Availability")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -53915,13 +55415,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Resource")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
+              _c("td", [_vm._v("Daffy Duck")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Pay Rate")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Skills")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Availability")])
             ])
           ])
         ]),
@@ -53948,6 +55450,67 @@ var staticRenderFns = [
             },
             [_vm._v("Add")]
           )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [
+                _vm._v("Active (ID: AB-227)")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Name: Jessica Rabbit")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Pay Rate:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Pay Rate" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Skills:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Skills" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Availability:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Availability" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -54144,6 +55707,147 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 77 */
@@ -54160,9 +55864,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Risks")])]),
+        _c("div", { staticClass: "col-md-12" }, [_c("h4", [_vm._v("Risks")])]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
@@ -54254,12 +55958,277 @@ var staticRenderFns = [
             "button",
             {
               staticClass: "btn button-add table-button",
-              attrs: { type: "button" }
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
+            },
+            [_vm._v("Add")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [
+                _vm._v("Active (ID: AB-227)")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Risk Score: 75")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _c("select", { attrs: { name: "Category" } }, [
+                      _c("option", { attrs: { value: "option1" } }, [
+                        _vm._v("Category")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Action By:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Action By" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Impact:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Impact" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Probability:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Probability" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Mitigation:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Mitigation" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Contingency:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Contingency" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("p", [_vm._v("Related Action Items")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("table", [
+            _c("tr", [
+              _c("th", [_vm._v("ID")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Date Raised")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Date Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("394")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Action Item")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("394")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Action Item")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("394")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Action Item")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn button-add table-button",
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
             },
             [_vm._v("Add")]
           )
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "modal fade", attrs: { id: "myModal", role: "dialog" } },
+        [
+          _c("div", { staticClass: "modal-dialog" }, [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "modal-header modal-dec" }, [
+                _c("h4", { staticClass: "modal-title" }, [
+                  _vm._v("Risk Creation")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "close",
+                    staticStyle: { color: "white" },
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [_vm._v("×")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _c("form", [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Title:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Title" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _c("select", { attrs: { name: "Category" } }, [
+                        _c("option", { attrs: { value: "option1" } }, [
+                          _vm._v("Category")
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Action By:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Action By" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Impact:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", { attrs: { type: "text", name: "Impact" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Probability:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Probability" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Mitigation:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Mitigation" }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _vm._v("\n                            Contingency:"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: { type: "text", name: "Contingency" }
+                      })
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "modal-footer modal-foot-dec",
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [
+                    _c("div", { staticStyle: { "margin-right": "45%" } }, [
+                      _vm._v("Create")
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ]
+      )
     ])
   }
 ]
@@ -54440,6 +56409,103 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 80 */
@@ -54456,9 +56522,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "body-container" }, [
+    return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Tasks")])]),
+        _c("div", { staticClass: "col-md-12" }, [_c("h4", [_vm._v("Tasks")])]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
@@ -54538,6 +56604,180 @@ var staticRenderFns = [
             [_vm._v("Delete")]
           ),
           _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn button-add table-button",
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#myModal"
+              }
+            },
+            [_vm._v("Add")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header modal-dec" }, [
+              _c("h5", { staticClass: "modal-title" }, [
+                _vm._v("Active (ID: AB-227)")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Estimated Duration: 02/28/18-08/28/18")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Effort Estimate: 6 months")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Previous Task: AB-226")]),
+              _vm._v(" "),
+              _c("div", [_vm._v("Next Task: AB-228")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("form", [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Title" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Expected End Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Expected End Date" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Description:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Description" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Resource:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Resource" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Start Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Start Date" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            End Date:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "End Date" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 active-margin" }, [
+                    _vm._v("Actual Duration: TBD")
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn button-add table-button",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Confirm")]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12 active-margin" }, [
+          _c("p", [_vm._v("Related Issues")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
+          _c("table", [
+            _c("tr", [
+              _c("th", [_vm._v("ID")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Title")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Date Raised")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Date Assigned")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Severity")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Priority")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Description")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("626")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Issue")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("626")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Issue")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("626")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Issue")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("02-18-2019")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Med")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Low")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-12" }, [
           _c(
             "button",
             {
@@ -54985,11 +57225,13 @@ var staticRenderFns = [
           _c("div", { staticClass: "navbar__left" }, [
             _c("div", { staticClass: "fas fa-bars" }),
             _vm._v(" "),
-            _c("div", { staticClass: "navbar_title" }, [_vm._v("PMS")])
+            _c("div", { staticClass: "navbar_title" }, [_vm._v("PMS | Team-i")])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "navbar__right" }, [
-            _c("div", { staticClass: "navbar__left-img" })
+            _c("div", { staticClass: "navbar__left-img" }, [
+              _c("div", { staticClass: "fas fa-user" })
+            ])
           ])
         ])
       ])
@@ -55097,9 +57339,6 @@ module.exports = Component.exports
 //
 //
 //
-//
-//
-//
 
 /***/ }),
 /* 90 */
@@ -55111,8 +57350,6 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "col-md-2" }, [
     _c("div", { staticClass: "sidebar" }, [
-      _vm._m(0),
-      _vm._v(" "),
       _c(
         "ul",
         { staticClass: "sidebar__list" },
@@ -55247,16 +57484,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "sidebar__home" }, [
-      _c("li", { staticClass: "sidebar__list-item" }, [_vm._v("Project Name")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {

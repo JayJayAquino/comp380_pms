@@ -1,8 +1,8 @@
 <template>
-<div class="body-container">
+<div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
-            <p>Deliverables</p>
+            <h4>Deliverables</h4>
         </div>
         <div class="col-md-12">
             <table>
@@ -40,18 +40,114 @@
             <button type="button" class="btn btn-danger table-button">Delete</button>
             <button type="button" class="btn button-add table-button" data-toggle="modal" data-target="#myModal">Add</button>
         </div>
-        <br>
+        
+        <div class="col-md-12 active-margin">
+                <div class="modal-content">
+                    <div class="modal-header modal-dec">
+                        <h5 class="modal-title">Active (ID: AB-227)</h5>
+                    </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            Title:<br>
+                            <input type="text" name="Title">
+                        </div>
+                        <div class="col-md-6">
+                            Expected End Date:<br>
+                            <input type="text" name="Expected End Date">
+                        </div>
+                        <div class="col-md-6">
+                            Description:<br>
+                            <input type="text" name="Description">
+                        </div>
+                    </div>
+                </form> 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn button-add table-button">Confirm</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-12 active-margin">
+            <p>Related Requirements</p>
+        </div>
         <div class="col-md-12">
             <table>
                 <tr>
-                    <th style="background-color:#2f557b; color:white;">Active ID: AB123</th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Due Date</th>
+                    <th>Assigned</th>
+                    <th>Description</th>
                 </tr>
                 <tr>
-                    <br>
-                    <input type="text">
+                    <td>3612</td>
+                    <td>Requirement</td>
+                    <td>02-18-2019</td>
+                    <td>Barb B.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <td>3612</td>
+                    <td>Requirement</td>
+                    <td>02-18-2019</td>
+                    <td>Joan J.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <td>3612</td>
+                    <td>Requirement</td>
+                    <td>02-18-2019</td>
+                    <td>Zylon Z.</td>
+                    <td>Lorem ipsum dolor sit.</td>
                 </tr>
             </table>
         </div>
+        <div class="col-md-12">
+            <button type="button" class="btn button-add table-button" data-toggle="modal" data-target="#myModal">Add</button>
+        </div>
+
+        <div class="col-md-12 active-margin">
+            <p>Related Tasks</p>
+        </div>
+        <div class="col-md-12">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Due Date</th>
+                    <th>Assigned</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>3612</td>
+                    <td>Task</td>
+                    <td>02-18-2019</td>
+                    <td>Barb B.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <td>3612</td>
+                    <td>Task</td>
+                    <td>02-18-2019</td>
+                    <td>Joan J.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+                <tr>
+                    <td>3612</td>
+                    <td>Task</td>
+                    <td>02-18-2019</td>
+                    <td>Zylon Z.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-12">
+            <button type="button" class="btn button-add table-button" data-toggle="modal" data-target="#myModal">Add</button>
+        </div>
+
     </div>
 
     <!-- Modal -->
