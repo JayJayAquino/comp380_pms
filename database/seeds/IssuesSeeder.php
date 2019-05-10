@@ -12,6 +12,6 @@ class IssuesSeeder extends Seeder
     public function run()
     {
         //
-        factory(App\Issue::class, 5)->create();
+        factory(App\Models\Issue::class, 50)->create();
     }
 }

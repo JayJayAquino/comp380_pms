@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\Resource::class, function (Faker $faker) {
+$factory->define(App\Models\Resource::class, function (Faker $faker) {
     return [
         'name'=> $faker->name,
         'title'=>'Developer-'.str_random(2),

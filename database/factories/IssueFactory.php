@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\Issue::class, function (Faker $faker) {
+$factory->define(App\Models\Issue::class, function (Faker $faker) {
     return [
         'description'=> $faker->text,
         'priority'=>rand(1,5),
