@@ -55277,6 +55277,17 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 74 */
@@ -55296,7 +55307,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Resources")])
+          _c("h4", [_vm._v("Resources")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -55308,11 +55319,13 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Title")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Due Date")]),
+              _c("th", [_vm._v("Name")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Completion")]),
+              _c("th", [_vm._v("Pay Rate")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Description")])
+              _c("th", [_vm._v("Skills")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Availability")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -55320,13 +55333,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Resource")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
+              _c("td", [_vm._v("Rodger Rabbit")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Pay Rate")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Skills")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Availability")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -55334,13 +55349,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Resource")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
+              _c("td", [_vm._v("Bugs Bunny")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Pay Rate")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Skills")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Availability")])
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -55348,13 +55365,15 @@ var staticRenderFns = [
                 _c("input", { attrs: { type: "checkbox", id: "myCheck" } })
               ]),
               _vm._v(" "),
-              _c("td", [_vm._v("Deliverable")]),
+              _c("td", [_vm._v("Resource")]),
               _vm._v(" "),
-              _c("td", [_vm._v("02-18-2019")]),
+              _c("td", [_vm._v("Daffy Duck")]),
               _vm._v(" "),
-              _c("td", [_vm._v("56%")]),
+              _c("td", [_vm._v("Pay Rate")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Lorem ipsum dolor sit.")])
+              _c("td", [_vm._v("Skills")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Availability")])
             ])
           ])
         ]),
@@ -55386,9 +55405,13 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
+              _c("h5", { staticClass: "modal-title" }, [
                 _vm._v("Active (ID: AB-227)")
               ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-header modal-sub-dec" }, [
+              _c("div", [_vm._v("Name: Jessica Rabbit")])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "modal-body" }, [
@@ -55402,20 +55425,25 @@ var staticRenderFns = [
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Expected End Date:"),
+                    _vm._v("\n                            Pay Rate:"),
                     _c("br"),
                     _vm._v(" "),
-                    _c("input", {
-                      attrs: { type: "text", name: "Expected End Date" }
-                    })
+                    _c("input", { attrs: { type: "text", name: "Pay Rate" } })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Description:"),
+                    _vm._v("\n                            Skills:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Skills" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Availability:"),
                     _c("br"),
                     _vm._v(" "),
                     _c("input", {
-                      attrs: { type: "text", name: "Description" }
+                      attrs: { type: "text", name: "Availability" }
                     })
                   ])
                 ])

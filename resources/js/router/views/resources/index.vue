@@ -2,37 +2,41 @@
 <div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
-            <p>Resources</p>
+            <h4>Resources</h4>
         </div>
         <div class="col-md-12">
             <table>
                 <tr>
                     <th><input type="checkbox" id="myCheck"></th>
                     <th>Title</th>
-                    <th>Due Date</th>
-                    <th>Completion</th>
-                    <th>Description</th>
+                    <th>Name</th>
+                    <th>Pay Rate</th>
+                    <th>Skills</th>
+                    <th>Availability</th>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
-                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Resource</td>
+                    <td>Rodger Rabbit</td>
+                    <td>Pay Rate</td>
+                    <td>Skills</td>
+                    <td>Availability</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
-                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Resource</td>
+                    <td>Bugs Bunny</td>
+                    <td>Pay Rate</td>
+                    <td>Skills</td>
+                    <td>Availability</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" id="myCheck"></td>
-                    <td>Deliverable</td>
-                    <td>02-18-2019</td>
-                    <td>56%</td>
-                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Resource</td>
+                    <td>Daffy Duck</td>
+                    <td>Pay Rate</td>
+                    <td>Skills</td>
+                    <td>Availability</td>
                 </tr>
             </table>
         </div>
@@ -44,7 +48,10 @@
         <div class="col-md-12 active-margin">
                 <div class="modal-content">
                     <div class="modal-header modal-dec">
-                        <h4 class="modal-title">Active (ID: AB-227)</h4>
+                        <h5 class="modal-title">Active (ID: AB-227)</h5>
+                    </div>
+                    <div class="modal-header modal-sub-dec">
+                            <div>Name: Jessica Rabbit</div>
                     </div>
             <div class="modal-body">
                 <form>
@@ -54,12 +61,16 @@
                             <input type="text" name="Title">
                         </div>
                         <div class="col-md-6">
-                            Expected End Date:<br>
-                            <input type="text" name="Expected End Date">
+                            Pay Rate:<br>
+                            <input type="text" name="Pay Rate">
                         </div>
                         <div class="col-md-6">
-                            Description:<br>
-                            <input type="text" name="Description">
+                            Skills:<br>
+                            <input type="text" name="Skills">
+                        </div>
+                        <div class="col-md-6">
+                            Availability:<br>
+                            <input type="text" name="Availability">
                         </div>
                     </div>
                 </form> 
