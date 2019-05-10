@@ -57229,7 +57229,9 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "navbar__right" }, [
-            _c("div", { staticClass: "navbar__left-img" })
+            _c("div", { staticClass: "navbar__left-img" }, [
+              _c("div", { staticClass: "fas fa-user" })
+            ])
           ])
         ])
       ])

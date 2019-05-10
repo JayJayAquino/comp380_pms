@@ -6,11 +6,11 @@
         position: relative;
         &-img{
             height:25px;
-            width:25px;
+            padding-right: 5px;
+            padding-left:5px;
             border-radius:25px;
             border: 1.5px #d4d6d8 solid;
-            // background-image: url(/public/images/README.png);
-            background-color: white;
+            color: #d4d6d8 ;
         }
     }
     &__right{
