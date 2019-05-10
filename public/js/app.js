@@ -54852,6 +54852,22 @@ module.exports = Component.exports
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 71 */
@@ -54871,7 +54887,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("p", [_vm._v("Requirements")])
+          _c("h4", [_vm._v("Requirements")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
@@ -54937,9 +54953,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
-                _vm._v("Active (ID: AB-227)")
-              ])
+              _c("h5", { staticClass: "modal-title" }, [_vm._v("ID: AB-227")])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "modal-body" }, [
@@ -54953,20 +54967,61 @@ var staticRenderFns = [
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Expected End Date:"),
+                    _vm._v("\n                            Title:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", { attrs: { type: "text", name: "Titles" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Requirement:"),
                     _c("br"),
                     _vm._v(" "),
                     _c("input", {
-                      attrs: { type: "text", name: "Expected End Date" }
+                      attrs: { type: "text", name: "Requirement" }
                     })
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
-                    _vm._v("\n                            Description:"),
+                    _vm._v("\n                            Source Document:"),
                     _c("br"),
                     _vm._v(" "),
                     _c("input", {
-                      attrs: { type: "text", name: "Description" }
+                      attrs: { type: "text", name: "Source Document" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v("\n                            Client Reference:"),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Client Reference" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v(
+                      "\n                            Location in Souce Document:"
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: {
+                        type: "text",
+                        name: "Location in Souce Document"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6" }, [
+                    _vm._v(
+                      "\n                            Related Deliverable:"
+                    ),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("input", {
+                      attrs: { type: "text", name: "Related Deliverable" }
                     })
                   ])
                 ])
