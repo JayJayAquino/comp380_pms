@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\Task::class, function (Faker $faker) {
+$factory->define(App\Models\Task::class, function (Faker $faker) {
     return [
         'name'=> 'Task-'.str_random(2),
         'description'=>$faker->text,

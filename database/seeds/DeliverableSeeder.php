@@ -11,6 +11,6 @@ class DeliverableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Deliverable::class, 5)->create();
+        factory(App\Models\Deliverable::class, 50)->create();
     }
 }

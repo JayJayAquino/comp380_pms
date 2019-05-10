@@ -11,6 +11,6 @@ class ActionItemsSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\ActionItem::class, 5)->create();
+        factory(App\Models\ActionItem::class, 50)->create();
     }
 }

@@ -1,8 +1,8 @@
 <template>
-<div class="body-container">
+<div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
-            <p>Action Items</p>
+            <h4>Action Items</h4>
         </div>
         <div class="col-md-12">
             <table>
@@ -40,6 +40,52 @@
             <button type="button" class="btn btn-danger table-button">Delete</button>
             <button type="button" class="btn button-add table-button" data-toggle="modal" data-target="#myModal">Add</button>
         </div>
+
+            <div class="col-md-12 active-margin">
+                <div class="modal-content">
+                    <div class="modal-header modal-dec">
+                        <h5 class="modal-title">Active (ID: AB-227)</h5>
+                        <div class="pull-right">CLOSED</div>
+                    </div>
+                    <div class="modal-header modal-sub-dec">
+                            <div>Date Created: 02/28/18</div>
+                            <div>Date Assigned: 08/28/18</div>
+                            <div>Last Updated: 08/28/18</div>
+                            <div>Estimated End Date: 12/28/18</div>
+                            <div>Actual: 12/31/18</div>
+                    </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            Title:<br>
+                            <input type="text" name="Title">
+                        </div>
+                        <div class="col-md-6">
+                            Resource:<br>
+                            <input type="text" name="Resource">
+                        </div>
+                        <div class="col-md-6">
+                            Description:<br>
+                            <input type="text" name="Description">
+                        </div>
+                        <div class="col-md-6">
+                            Status:<br>
+                            <input type="text" name="Status" value="closed">
+                        </div>
+                        <div class="col-md-6">
+                            Status Description:<br>
+                            <input type="text" name="Status Description">
+                        </div>
+                    </div>
+                </form> 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn button-add table-button">Confirm</button>
+            </div>
+        </div>
+        </div>
+
     </div>
 
     <!-- Modal -->

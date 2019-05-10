@@ -1,8 +1,8 @@
 <template>
-<div class="body-container">
+<div class="col-md-10 body-container">
     <div class="row">
         <div class="col-md-12">
-            <p>Requirements</p>
+            <h4>Requirements</h4>
         </div>
         <div class="col-md-12">
             <table>
@@ -28,6 +28,52 @@
             <button type="button" class="btn btn-danger table-button">Delete</button>
             <button type="button" class="btn button-add table-button" data-toggle="modal" data-target="#myModal">Add</button>
         </div>
+
+        <div class="col-md-12 active-margin">
+                <div class="modal-content">
+                    <div class="modal-header modal-dec">
+                        <h5 class="modal-title">ID: AB-227</h5>
+                    </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            Title:<br>
+                            <input type="text" name="Title">
+                        </div>
+                        <div class="col-md-6">
+                            Title:<br>
+                            <input type="text" name="Titles">
+                        </div>
+                        <div class="col-md-6">
+                            Requirement:<br>
+                            <input type="text" name="Requirement">
+                        </div>
+                        <div class="col-md-6">
+                            Source Document:<br>
+                            <input type="text" name="Source Document">
+                        </div>
+                        <div class="col-md-6">
+                            Client Reference:<br>
+                            <input type="text" name="Client Reference">
+                        </div>
+                        <div class="col-md-6">
+                            Location in Souce Document:<br>
+                            <input type="text" name="Location in Souce Document">
+                        </div>
+                        <div class="col-md-6">
+                            Related Deliverable:<br>
+                            <input type="text" name="Related Deliverable">
+                        </div>
+                    </div>
+                </form> 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn button-add table-button">Confirm</button>
+            </div>
+        </div>
+        </div>
+
     </div>
 
     <!-- Modal -->

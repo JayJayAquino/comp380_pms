@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\ActionItem::class, function (Faker $faker) {
+$factory->define(App\Models\ActionItem::class, function (Faker $faker) {
     $date = $faker->dateTimeThisYear($max = 'now', $timezone = null);
     $expectedCompletion = $faker->dateTimeBetween($startDate = 'now', $endDate = '+3 monthss', $timezone = null);
     return [
