@@ -55816,7 +55816,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-10 body-container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_c("p", [_vm._v("Risks")])]),
+        _c("div", { staticClass: "col-md-12" }, [_c("h4", [_vm._v("Risks")])]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-12" }, [
           _c("table", [
@@ -55921,7 +55921,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md-12 active-margin" }, [
           _c("div", { staticClass: "modal-content" }, [
             _c("div", { staticClass: "modal-header modal-dec" }, [
-              _c("h4", { staticClass: "modal-title" }, [
+              _c("h5", { staticClass: "modal-title" }, [
                 _vm._v("Active (ID: AB-227)")
               ])
             ]),
